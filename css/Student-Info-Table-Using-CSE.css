@@ -1,0 +1,43 @@
+body{
+  background: yellow;
+}
+
+#bh1{
+  border: 1px solid red;
+  background: #b3d4fc;
+  margin: 50px;
+  padding: 20px;
+}
+
+table{
+  background-color: yellowgreen;
+  border: none;
+  text-align: center;
+}
+
+th,td{
+  padding: 10px 30px 10px 30px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+#htr{
+  background-color:blue;
+}
+
+tr:nth-of-type(even){
+  background-color: green;
+  color: black;
+}
+tr:nth-of-type(odd){
+  background-color: deeppink;
+  color: white;
+}
+
+#shadow_h1{
+  text-shadow: 4px 3px 6px red;
+  outline: dashed;
+  width: 50%;
+}
+input{ width: 100%;}
+

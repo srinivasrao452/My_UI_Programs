@@ -1,0 +1,50 @@
+*{
+  color: red;
+  text-decoration: underline;
+}
+
+ul li{
+  color: green;
+  font-family: cursive;
+}
+li a{
+  color: blue;
+}
+a+h2{
+  color: cyan;
+}
+
+li:nth-of-type(3){
+  color: black;
+}
+
+h2[class]{
+  color: brown;
+  font-size: 100px;
+}
+
+
+
+
+/*===============================================================*/
+
+
+/*th,td{*/
+/*  padding: 10px 30px 10px 30px;*/
+/*  font-size: 20px;*/
+/*  font-family: cursive;*/
+/*  border-radius: 10px;*/
+/*}*/
+/*#htr{*/
+/*  background-color:blue;*/
+/*}*/
+
+/*tr:nth-of-type(even){*/
+/*  background-color: deeppink;*/
+/*  color: white;*/
+/*}*/
+/*tr:nth-of-type(odd){*/
+/*  background-color: cyan;*/
+/*  color: white;*/
+/*}*/
+
